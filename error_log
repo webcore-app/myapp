@@ -1,0 +1,20 @@
+[14-Nov-2024 10:58:09 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kisetmpf_db.logs' doesn't exist in /home2/kisetmpf/public_html/jp-ja/index.php:21
+Stack trace:
+#0 /home2/kisetmpf/public_html/jp-ja/index.php(21): mysqli->query('SELECT * FROM l...')
+#1 {main}
+  thrown in /home2/kisetmpf/public_html/jp-ja/index.php on line 21
+[14-Nov-2024 11:00:05 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kisetmpf_db.logs' doesn't exist in /home2/kisetmpf/public_html/jp-ja/index.php:21
+Stack trace:
+#0 /home2/kisetmpf/public_html/jp-ja/index.php(21): mysqli->query('SELECT * FROM l...')
+#1 {main}
+  thrown in /home2/kisetmpf/public_html/jp-ja/index.php on line 21
+[14-Nov-2024 11:01:23 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kisetmpf_db.logs' doesn't exist in /home2/kisetmpf/public_html/jp-ja/index.php:21
+Stack trace:
+#0 /home2/kisetmpf/public_html/jp-ja/index.php(21): mysqli->query('SELECT * FROM l...')
+#1 {main}
+  thrown in /home2/kisetmpf/public_html/jp-ja/index.php on line 21
+[14-Nov-2024 11:01:45 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'kisetmpf_db.logs' doesn't exist in /home2/kisetmpf/public_html/jp-ja/index.php:21
+Stack trace:
+#0 /home2/kisetmpf/public_html/jp-ja/index.php(21): mysqli->query('SELECT * FROM l...')
+#1 {main}
+  thrown in /home2/kisetmpf/public_html/jp-ja/index.php on line 21
