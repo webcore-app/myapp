@@ -3,25 +3,21 @@ name: Deploy Static HTML Site to Azure Static Web Apps
 on:
   push:
     branches:
-      - main  # Change to your deployment branch if needed
-  pull_request:
-    types: [opened, synchronize, reopened, closed]
-    branches:
       - main
 
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
-    name: Build and Deploy Job
+
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_GRAY_RIVER_0060BC800 }}
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           action: upload
-          app_location: "/"                # Folder containing your static site (index.html, etc.)
-          output_location: "."             # No build step, files are already in place
-          skip_app_build: true             # Skip build since it's just static files
+          app_location: "/"
+          output_location: "."
+          skip_app_build: true
